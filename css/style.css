@@ -450,6 +450,60 @@ select {
   color: var(--muted);
 }
 
+.section-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.booking-steps {
+  display: grid;
+  gap: 18px;
+  max-width: 860px;
+  margin: 0 auto;
+  counter-reset: booking-step;
+}
+
+.booking-step {
+  position: relative;
+  padding: 26px 26px 26px 82px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: white;
+  box-shadow: 0 8px 22px rgba(31, 29, 32, 0.06);
+  counter-increment: booking-step;
+}
+
+.booking-step::before {
+  content: counter(booking-step);
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border-radius: 50%;
+  color: white;
+  background: var(--burgundy);
+  font-weight: 900;
+}
+
+.booking-step h2 {
+  margin: 0 0 8px;
+  color: var(--blue-950);
+  font-size: 1.25rem;
+}
+
+.booking-step p {
+  margin: 0;
+}
+
+.booking-step a {
+  color: var(--burgundy);
+  font-weight: 800;
+}
+
 .cta-band {
   color: white;
   background:
@@ -1024,5 +1078,13 @@ tr:last-child td {
   .hero-actions .btn,
   .cta-band .btn {
     width: 100%;
+  }
+
+  .section-action .btn {
+    width: 100%;
+  }
+
+  .booking-step {
+    padding: 72px 20px 22px;
   }
 }
