@@ -40,6 +40,12 @@ if ("IntersectionObserver" in window) {
 const contactForm = document.querySelector("#contactForm");
 const formMessage = document.querySelector("#formMessage");
 
+document.querySelectorAll("[data-coming-soon]").forEach((button) => {
+  button.addEventListener("click", () => {
+    window.alert(button.dataset.comingSoon);
+  });
+});
+
 if (contactForm) {
   contactForm.addEventListener("submit", (event) => {
     event.preventDefault();
