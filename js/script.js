@@ -83,13 +83,13 @@ registrationLinks.forEach((link) => {
 
     if (registrationNotice) {
       registrationNotice.textContent =
-        "Les inscriptions pour la saison 2026/2027 ne sont pas encore ouvertes. Elles arrivent bientôt !";
+        "Les inscriptions pour la saison 2026/2027 arrivent bientôt !";
       registrationNotice.scrollIntoView({ behavior: "smooth", block: "center" });
       registrationNotice.focus({ preventScroll: true });
     }
 
     window.alert(
-      "Les inscriptions pour la saison 2026/2027 ne sont pas encore ouvertes. Elles arrivent bientôt !"
+      "Les inscriptions pour la saison 2026/2027 arrivent bientôt !"
     );
   });
 });
