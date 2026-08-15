@@ -833,6 +833,29 @@ select {
   gap: 16px;
 }
 
+.registration-overview {
+  display: grid;
+  gap: 24px;
+}
+
+.registration-overview .club-logo-inline {
+  margin-inline: auto;
+}
+
+.registration-status {
+  text-align: center;
+}
+
+.registration-columns,
+.registration-contacts {
+  display: grid;
+  gap: 18px;
+}
+
+.registration-contact-card a {
+  overflow-wrap: anywhere;
+}
+
 .payment-links {
   display: grid;
   gap: 14px;
@@ -1084,6 +1107,32 @@ tr:last-child td {
   .contact-layout,
   .cta-band .container {
     grid-template-columns: 1.05fr 0.95fr;
+  }
+
+  .registration-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+  }
+
+  .registration-contacts {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+
+  .registration-contact-card {
+    display: grid;
+    grid-template-columns: 46px minmax(0, 1fr);
+    column-gap: 18px;
+    align-content: center;
+  }
+
+  .registration-contact-card .card-icon {
+    grid-row: 1 / span 3;
+    margin-bottom: 0;
+  }
+
+  .registration-contact-card h3,
+  .registration-contact-card p {
+    grid-column: 2;
   }
 
   .contact-line {
