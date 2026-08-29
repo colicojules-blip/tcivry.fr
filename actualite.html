@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Actualité du Tennis Club d'Ivry.">
+  <title>Tennis Club d'Ivry | Actualité</title>
+  <link rel="icon" type="image/png" href="images/favicon-tci.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigation principale">
+      <a class="brand" href="index.html" aria-label="Accueil Tennis Club d'Ivry">
+        <img class="brand-mark" src="images/logo-club-web.png" alt="">
+        <span>Tennis Club d'Ivry</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false"><span></span></button>
+      <div class="nav-menu">
+        <a href="index.html">Accueil</a>
+        <a class="active" href="actualites.html">Actualités</a>
+        <a href="inscriptions.html">Inscriptions</a>
+        <a href="equipe.html">Équipe</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn-primary" href="inscriptions.html">Inscriptions bientôt</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="actualite-hero" class="page-hero actualite-detail-hero">
+      <div class="container actualite-detail-heading">
+        <p id="actualite-meta" class="eyebrow">Actualité du club</p>
+        <h1 id="actualite-title">Actualité du club</h1>
+        <p id="actualite-resume"></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <article id="actualite-article" class="actualite-detail">
+          <div id="actualite-content" class="actualite-content"></div>
+          <div class="actualite-detail-actions">
+            <a class="btn btn-outline" href="actualites.html">Retour aux actualités</a>
+          </div>
+        </article>
+
+        <div id="actualite-not-found" class="actualites-empty" hidden>
+          <h2>Cette actualité est introuvable.</h2>
+          <p>Elle a peut-être été déplacée ou retirée.</p>
+          <a class="btn btn-primary" href="actualites.html">Voir toutes les actualités</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="club-logo-small" src="images/logo-club-web.png" alt="">
+        <h3>Tennis Club d'Ivry</h3>
+        <p>Un club ouvert, formateur et compétitif pour jouer toute l'année.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <div class="footer-links">
+          <a href="actualites.html">Actualités</a>
+          <a href="inscriptions.html">Inscriptions</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4>Club</h4>
+        <p>12 avenue Maurice Thorez<br>94200 Ivry-sur-Seine</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2026 Tennis Club d'Ivry. Tous droits réservés.</div>
+  </footer>
+
+  <script src="js/actualites.js"></script>
+  <script src="js/actualite-page.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

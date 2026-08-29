@@ -9,6 +9,8 @@ if (actualitesList && actualitesEmpty) {
   if (actualites.length === 0) {
     actualitesEmpty.hidden = false;
   } else {
+    actualitesList.classList.toggle("is-single", actualites.length === 1);
+
     actualites.forEach((actualite) => {
       const article = document.createElement("article");
       article.className = "actualite-card reveal";
