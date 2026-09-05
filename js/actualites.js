@@ -34,6 +34,56 @@ window.ACTUALITES = [
     ]
   },
 
+ {
+  slug: "le-club-poursuit-ses-activites",
+  titre: "Après la tornade : le club poursuit ses activités",
+  date: "5 septembre 2026",
+  dateISO: "2026-09-05",
+  categorie: "Information importante",
+  resume: "Le TC Ivry poursuit ses activités avec une organisation adaptée. Retrouvez-nous aujourd'hui au Forum des associations, à l'Espace Robespierre, emplacement 68, pour obtenir plus d'informations.",
+  image: "",
+  imageAlt: "",
+  lien: "actualite.html?article=le-club-poursuit-ses-activites",
+  contenu: [
+    "Le Tennis Club d'Ivry poursuit ses activités malgré les conséquences de la tornade qui a récemment touché ses installations.",
+
+    "La bulle du club ne sera pas réinstallée. Nous devons donc adapter notre organisation et proposer des formules permettant de pratiquer principalement sur les terrains extérieurs.",
+
+    "Nous restons en communication avec la Ville afin de suivre l'évolution de la situation et d'étudier les différentes solutions possibles pour maintenir au mieux les activités du club.",
+
+    "Les terrains extérieurs devraient prochainement pouvoir être de nouveau utilisés. Leur remise en état nécessite toutefois encore un peu de travail.",
+
+    "Nous prévoyons prochainement une journée d'entraide afin de permettre aux adhérents qui le souhaitent de venir nous aider à déblayer et préparer les terrains. La date et les modalités seront communiquées dans une prochaine actualité : pensez à consulter régulièrement le site du club.",
+
+    "INFORMATION IMPORTANTE — Le Forum des associations a lieu aujourd'hui à l'Espace Robespierre. Retrouvez le Tennis Club d'Ivry à l'emplacement 68 pour échanger avec nous, poser vos questions et obtenir davantage d'informations sur la situation et la nouvelle saison.",
+
+    "Une journée d'inscription sera également organisée le samedi 12 septembre au chalet du club.",
+
+    "Merci à toutes et à tous pour votre patience, votre compréhension et votre soutien. Nous sommes heureux de pouvoir poursuivre les activités du club à vos côtés malgré cette situation exceptionnelle."
+  ]
+},
+
+{
+  slug: "forum-associations-et-prochaines-dates",
+  titre: "Forum des associations et prochaines dates du club",
+  date: "5 septembre 2026",
+  dateISO: "2026-09-05",
+  categorie: "À retenir",
+  resume: "Retrouvez-nous aujourd'hui au Forum des associations à l'Espace Robespierre, à Ivry-sur-Seine. Les inscriptions en présentiel auront lieu le 12 septembre au chalet du club.",
+  image: "",
+  imageAlt: "",
+  lien: "actualite.html?article=forum-associations-et-prochaines-dates",
+  contenu: [
+    "Retrouvez aujourd'hui le Tennis Club d'Ivry au Forum des associations, à l'Espace Robespierre d'Ivry-sur-Seine. Nous serons présents à l'emplacement 68 pour répondre à vos questions et vous renseigner sur la nouvelle saison.",
+
+    "Une journée d'inscription en présentiel sera organisée le samedi 12 septembre au chalet du club.",
+
+    "Une journée d'entraide aura également lieu prochainement afin de nettoyer et de préparer les terrains extérieurs avec les adhérents qui souhaitent participer.",
+
+    "La date et les modalités de cette journée seront annoncées prochainement. Pensez à consulter régulièrement les actualités du site pour rester informés."
+  ]
+},
+  
   // Pour créer une nouvelle actualité, copiez le modèle commenté
   // ci-dessous, collez-le ici, puis retirez les // au début des lignes.
 
