@@ -163,6 +163,17 @@ select {
   color: var(--burgundy);
 }
 
+.nav-menu .btn-primary,
+.nav-menu .btn-primary.active {
+  color: white;
+  background: var(--burgundy);
+}
+
+.nav-menu .btn-primary:hover {
+  color: white;
+  background: #8f153b;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -218,8 +229,8 @@ select {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(31, 29, 32, 0.82), rgba(70, 34, 39, 0.52), rgba(70, 34, 39, 0.18)),
-    url("../images/club/chalet.jpg") center / cover no-repeat;
+    linear-gradient(90deg, rgba(31, 29, 32, 0.82), rgba(31, 29, 32, 0.48), rgba(31, 29, 32, 0.12)),
+    url("../images/club/chalet.jpeg") center / cover no-repeat;
 }
 
 .hero .container {
@@ -280,6 +291,18 @@ select {
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.14);
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.stat:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.36);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.stat:focus-visible {
+  outline: 3px solid var(--ball);
+  outline-offset: 3px;
 }
 
 .stat strong {
@@ -1643,9 +1666,53 @@ tr:last-child td {
 }
 
 .footer-bottom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px 28px;
+  flex-wrap: wrap;
   padding: 16px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   font-size: 0.9rem;
+}
+
+.site-credit {
+  margin-left: auto;
+  text-align: right;
+}
+
+.site-credit summary {
+  color: rgba(255, 255, 255, 0.76);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  list-style: none;
+}
+
+.site-credit summary::-webkit-details-marker {
+  display: none;
+}
+
+.site-credit summary strong {
+  color: var(--ball);
+  font-weight: 700;
+}
+
+.site-credit a {
+  display: block;
+  margin-top: 4px;
+  color: white;
+  font-size: 0.82rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.site-credit summary:focus-visible,
+.site-credit a:focus-visible {
+  outline: 2px solid var(--ball);
+  outline-offset: 3px;
 }
 
 .reveal {
@@ -1670,10 +1737,6 @@ tr:last-child td {
 
   .sports-closing-card {
     grid-template-columns: minmax(0, 1fr) auto;
-  }
-
-  .actualites-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .hero-stats,
@@ -1779,6 +1842,35 @@ tr:last-child td {
 
   .teachers-grid {
     grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 959px) {
+  .nav-menu a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  .actualite-link,
+  .registration-contact-card a,
+  .contact-layout a[href^="mailto:"],
+  .contact-line a,
+  .footer-links a,
+  .site-credit summary,
+  .site-credit a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .footer-links a {
+    display: flex;
+  }
+
+  .site-credit summary,
+  .site-credit a {
+    justify-content: flex-end;
   }
 }
 
