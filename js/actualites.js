@@ -81,23 +81,24 @@ window.ACTUALITES = [
 },
 
 {
-  slug: "forum-associations-et-prochaines-dates",
-  titre: "Forum des associations et prochaines dates du club",
-  date: "5 septembre 2026",
-  dateISO: "2026-09-05",
-  categorie: "À retenir",
-  resume: "Retrouvez-nous aujourd'hui au Forum des associations à l'Espace Robespierre, à Ivry-sur-Seine. Les inscriptions sont ouvertes et une permanence aura lieu le 12 septembre au chalet du club.",
-  image: "",
-  imageAlt: "",
-  lien: "actualite.html?article=forum-associations-et-prochaines-dates",
-  contenu: [
-    "Retrouvez aujourd'hui le Tennis Club d'Ivry au Forum des associations, à l'Espace Robespierre d'Ivry-sur-Seine. Nous serons présents à l'emplacement 68 pour répondre à vos questions et vous renseigner sur la nouvelle saison.",
-
-    "Les inscriptions sont ouvertes. Une permanence sera organisée le samedi 12 septembre, de 10 h à 15 h, au chalet du club.",
-
-    "Une journée d'entraide aura également lieu prochainement afin de nettoyer et de préparer les terrains extérieurs avec les adhérents qui souhaitent participer.",
-
-    "La date et les modalités de cette journée seront annoncées prochainement. Pensez à consulter régulièrement les actualités du site pour rester informés."
+  "slug": "journee-inscription-12-septembre-2026",
+  "titre": "Journée d’inscription – Samedi 12 septembre",
+  "date": "6 septembre 2026",
+  "dateISO": "2026-09-06",
+  "categorie": "Inscriptions",
+  "miseEnAvant": true,
+  "resume": "Rendez-vous samedi 12 septembre 2026, de 10 h à 15 h, au chalet du Tennis Club d’Ivry pour découvrir le club et finaliser votre inscription pour la nouvelle saison.",
+  "image": "images/club/chalet.jpeg",
+  "imageAlt": "Le chalet du Tennis Club d’Ivry, lieu de la journée d’inscription",
+  "lien": "actualite.html?article=journee-inscription-12-septembre-2026",
+  "contenu": [
+    "Le Tennis Club d’Ivry vous accueille pour sa journée d’inscription !",
+    "📍 Rendez-vous au chalet du Tennis Club d’Ivry.",
+    "🗓️ Samedi 12 septembre 2026",
+    "🕙 De 10 h à 15 h",
+    "Venez nous rencontrer, découvrir le club, vous renseigner sur les cours et finaliser votre inscription pour la nouvelle saison.",
+    "📍 Adresse : Complexe sportif Venise Gosnat, 30 rue Amédée Huon.",
+    "👉 Nous vous attendons nombreux !"
   ]
 },
 
