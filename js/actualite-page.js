@@ -23,6 +23,14 @@ if (actualite) {
     description.content = actualite.resume;
   }
 
+  if (actualite.image) {
+    const image = document.createElement("img");
+    image.className = "actualite-detail-image";
+    image.src = actualite.image;
+    image.alt = actualite.imageAlt || "";
+    articleElement.insertBefore(image, content);
+  }
+
   (actualite.contenu || []).forEach((paragraphText) => {
     const paragraph = document.createElement("p");
     paragraph.textContent = paragraphText;

@@ -13,6 +13,23 @@
 
 window.ACTUALITES = [
   {
+    slug: "retour-forum-associations-2026",
+    titre: "Retour sur le Forum des associations",
+    date: "6 septembre 2026",
+    dateISO: "2026-09-06",
+    categorie: "Vie du club",
+    resume: "Merci à toutes celles et tous ceux qui sont venus rencontrer l'équipe du Tennis Club d'Ivry au Forum des associations.",
+    image: "images/actualité/photo forum 2026.jpeg",
+    imageAlt: "L'équipe du Tennis Club d'Ivry accueillant les visiteurs au Forum des associations 2026",
+    lien: "actualite.html?article=retour-forum-associations-2026",
+    contenu: [
+      "Le Tennis Club d'Ivry était présent au Forum des associations de la Ville. Merci à toutes celles et tous ceux qui sont venus nous rencontrer !",
+      "Les personnes qui ont laissé leurs coordonnées sur la feuille seront recontactées dans la semaine. Géraldine s'occupe des cours adultes, Chloé des jeunes et Vincent du pickleball.",
+      "Rendez-vous samedi 12 septembre, de 10 h à 15 h, au chalet du club pour la permanence des inscriptions."
+    ]
+  },
+
+  {
     slug: "situation-du-club-apres-la-tornade",
     titre: "Situation du club après la tornade",
     date: "29 août 2026",
@@ -57,7 +74,7 @@ window.ACTUALITES = [
 
     "INFORMATION IMPORTANTE — Le Forum des associations a lieu aujourd'hui à l'Espace Robespierre. Retrouvez le Tennis Club d'Ivry à l'emplacement 68 pour échanger avec nous, poser vos questions et obtenir davantage d'informations sur la situation et la nouvelle saison.",
 
-    "Une journée d'inscription sera également organisée le samedi 12 septembre au chalet du club.",
+    "Les inscriptions sont ouvertes. Une permanence sera organisée le samedi 12 septembre, de 10 h à 15 h, au chalet du club.",
 
     "Merci à toutes et à tous pour votre patience, votre compréhension et votre soutien. Nous sommes heureux de pouvoir poursuivre les activités du club à vos côtés malgré cette situation exceptionnelle."
   ]
@@ -69,20 +86,21 @@ window.ACTUALITES = [
   date: "5 septembre 2026",
   dateISO: "2026-09-05",
   categorie: "À retenir",
-  resume: "Retrouvez-nous aujourd'hui au Forum des associations à l'Espace Robespierre, à Ivry-sur-Seine. Les inscriptions en présentiel auront lieu le 12 septembre au chalet du club.",
+  resume: "Retrouvez-nous aujourd'hui au Forum des associations à l'Espace Robespierre, à Ivry-sur-Seine. Les inscriptions sont ouvertes et une permanence aura lieu le 12 septembre au chalet du club.",
   image: "",
   imageAlt: "",
   lien: "actualite.html?article=forum-associations-et-prochaines-dates",
   contenu: [
     "Retrouvez aujourd'hui le Tennis Club d'Ivry au Forum des associations, à l'Espace Robespierre d'Ivry-sur-Seine. Nous serons présents à l'emplacement 68 pour répondre à vos questions et vous renseigner sur la nouvelle saison.",
 
-    "Une journée d'inscription en présentiel sera organisée le samedi 12 septembre au chalet du club.",
+    "Les inscriptions sont ouvertes. Une permanence sera organisée le samedi 12 septembre, de 10 h à 15 h, au chalet du club.",
 
     "Une journée d'entraide aura également lieu prochainement afin de nettoyer et de préparer les terrains extérieurs avec les adhérents qui souhaitent participer.",
 
     "La date et les modalités de cette journée seront annoncées prochainement. Pensez à consulter régulièrement les actualités du site pour rester informés."
   ]
 },
+
   
   // Pour créer une nouvelle actualité, copiez le modèle commenté
   // ci-dessous, collez-le ici, puis retirez les // au début des lignes.
