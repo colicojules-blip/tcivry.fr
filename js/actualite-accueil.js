@@ -7,7 +7,7 @@ if (homeActualiteLink && homeActualiteTitle && homeActualiteSummary) {
 
   actualites.sort((a, b) => String(b.dateISO || "").localeCompare(String(a.dateISO || "")));
 
-  const latestActualite = actualites[0];
+  const latestActualite = actualites.find((item) => item.miseEnAvant) || actualites[0];
 
   if (latestActualite) {
     homeActualiteTitle.textContent = latestActualite.titre;
