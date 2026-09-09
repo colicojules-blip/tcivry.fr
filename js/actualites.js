@@ -83,8 +83,8 @@ window.ACTUALITES = [
 {
   "slug": "journee-inscription-12-septembre-2026",
   "titre": "Journée d’inscription – Samedi 12 septembre",
-  "date": "6 septembre 2026",
-  "dateISO": "2026-09-06",
+  "date": "09 septembre 2026",
+  "dateISO": "2026-09-09",
   "categorie": "Inscriptions",
   "miseEnAvant": true,
   "resume": "Rendez-vous samedi 12 septembre 2026, de 10 h à 15 h, au chalet du Tennis Club d’Ivry pour découvrir le club et finaliser votre inscription pour la nouvelle saison.",
