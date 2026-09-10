@@ -36,6 +36,15 @@ if (actualite) {
     paragraph.textContent = paragraphText;
     content.appendChild(paragraph);
   });
+  if (actualite.bouton) {
+    const button = document.createElement("a");
+    button.className = "btn btn-primary";
+    button.href = actualite.bouton.url;
+    button.textContent = `${actualite.bouton.libelle} (nouvel onglet)`;
+    button.target = "_blank";
+    button.rel = "noopener noreferrer";
+    content.appendChild(button);
+  }
 } else {
   articleElement.hidden = true;
   heroElement.hidden = true;

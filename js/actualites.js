@@ -13,6 +13,27 @@
 
 window.ACTUALITES = [
   {
+    slug: "votre-avis-sur-le-site",
+    titre: "Le site aussi progresse : donnez votre avis !",
+    date: "10 septembre 2026",
+    dateISO: "2026-09-10",
+    categorie: "Vie du club",
+    resume: "Comme dans le sport, on s’améliore toujours. Le site aussi ! Partagez vos idées et vos suggestions pour nous aider à le faire évoluer.",
+    image: "",
+    imageAlt: "",
+    lien: "actualite.html?article=votre-avis-sur-le-site",
+    contenu: [
+      "Comme dans le sport, on s’améliore toujours. Le site aussi ! Nous souhaitons vous proposer un site pratique, clair et agréable à utiliser.",
+      "Vous avez une idée, rencontré une difficulté ou trouvé une information qui manque ? Votre avis nous aidera à améliorer le site du Tennis Club d’Ivry.",
+      "Partagez vos remarques et vos suggestions dans notre formulaire en cliquant sur le bouton ci-dessous. Vous pouvez aussi retrouver ce formulaire sur l’accueil et en bas de chaque page du site.",
+      "Merci de nous aider à faire progresser le site du club !"
+    ],
+    bouton: {
+      libelle: "Donner mon avis sur le site",
+      url: "https://docs.google.com/forms/d/e/1FAIpQLSelf84Uur7fZhq8vkJuUNFffgiuWcYOifkqJt5to_yCwk1QWg/viewform?usp=dialog"
+    }
+  },
+  {
     slug: "retour-forum-associations-2026",
     titre: "Retour sur le Forum des associations",
     date: "6 septembre 2026",
