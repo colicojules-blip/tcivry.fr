@@ -1914,3 +1914,57 @@ tr:last-child td {
   outline: 3px solid var(--burgundy);
   outline-offset: 3px;
 }
+
+/* Invitation à donner un avis sur le site. */
+.footer-feedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-block: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-feedback p {
+  flex: 1 1 280px;
+  font-size: 1.05rem;
+}
+
+.feedback-panel {
+  display: grid;
+  gap: 24px;
+  padding: clamp(20px, 5vw, 44px);
+  border: 1px solid var(--line);
+  border-top: 5px solid var(--burgundy);
+  border-radius: var(--radius);
+  background: var(--surface-soft);
+}
+
+.feedback-panel h2 {
+  margin-top: 0;
+}
+
+.feedback-panel .btn,
+.footer-feedback .btn {
+  min-height: 48px;
+  white-space: normal;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.feedback-panel .btn {
+  justify-self: start;
+}
+
+.feedback-new-tab {
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .footer-feedback .btn,
+  .feedback-panel .btn {
+    width: 100%;
+  }
+}
