@@ -1888,3 +1888,29 @@ tr:last-child td {
     padding: 72px 20px 22px;
   }
 }
+
+/* Liens d'inscription : une seule colonne sur tous les écrans. */
+.registration-payment-links {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+  max-width: 800px;
+  margin-inline: auto;
+  margin-bottom: 24px;
+}
+
+.registration-payment-links .payment-group {
+  min-width: 0;
+  padding: clamp(16px, 4vw, 24px);
+}
+
+.registration-payment-links .link-list a {
+  min-height: 48px;
+  align-items: center;
+  overflow-wrap: anywhere;
+  line-height: 1.5;
+}
+
+.registration-payment-links .link-list a:focus-visible {
+  outline: 3px solid var(--burgundy);
+  outline-offset: 3px;
+}
