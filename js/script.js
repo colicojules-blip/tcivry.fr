@@ -73,23 +73,3 @@ if (contactForm) {
     window.location.href = mailto;
   });
 }
-
-const registrationLinks = document.querySelectorAll(".registration-link");
-const registrationNotice = document.querySelector("#registrationNotice");
-
-registrationLinks.forEach((link) => {
-  link.addEventListener("click", (event) => {
-    event.preventDefault();
-
-    if (registrationNotice) {
-      registrationNotice.textContent =
-        "Les inscriptions sont ouvertes. Les liens officiels seront disponibles samedi 12 septembre.";
-      registrationNotice.scrollIntoView({ behavior: "smooth", block: "center" });
-      registrationNotice.focus({ preventScroll: true });
-    }
-
-    window.alert(
-      "Les inscriptions sont ouvertes. Les liens officiels seront disponibles samedi 12 septembre."
-    );
-  });
-});

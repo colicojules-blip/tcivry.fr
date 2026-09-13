@@ -13,7 +13,7 @@ if (actualite) {
   const summary = document.querySelector("#actualite-resume");
   const content = document.querySelector("#actualite-content");
 
-  meta.textContent = [actualite.date, actualite.categorie].filter(Boolean).join(" · ");
+  meta.textContent = [actualite.date, actualite.categorie, actualite.archive ? "Archive" : ""].filter(Boolean).join(" · ");
   title.textContent = actualite.titre;
   summary.textContent = actualite.resume;
   document.title = `${actualite.titre} | Tennis Club d'Ivry`;

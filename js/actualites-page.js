@@ -28,7 +28,7 @@ if (actualitesList && actualitesEmpty) {
 
       const meta = document.createElement("p");
       meta.className = "actualite-meta";
-      meta.textContent = [actualite.date, actualite.categorie].filter(Boolean).join(" · ");
+      meta.textContent = [actualite.date, actualite.categorie, actualite.archive ? "Archive" : ""].filter(Boolean).join(" · ");
 
       const title = document.createElement("h3");
       title.textContent = actualite.titre || "Actualité du club";
