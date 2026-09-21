@@ -1,6 +1,79 @@
 // archive: true exclut une annonce de l’accueil. dateFin : YYYY-MM-DD, date locale de Paris.
 window.ACTUALITES = [
   {
+    "slug": "rentree-tennis-21-septembre-2026",
+    "titre": "C’est enfin la rentrée !",
+    "categorie": "Vie du club",
+    "miseEnAvant": true,
+    "resume": "Les cours reprennent lundi 21 septembre ! Finalisez votre inscription et retrouvez toutes les informations pour cette nouvelle saison.",
+    "contenu": [
+      "Après quelques semaines mouvementées, les cours de tennis reprennent à partir du lundi 21 septembre ! Nous avons hâte de vous retrouver sur les terrains. Merci à toutes et à tous pour votre patience et votre compréhension.",
+      "Pensez à finaliser votre inscription pour cette nouvelle saison grâce au bouton ci-dessous.",
+      "Tout au long de l’année, retrouvez les informations du club sur cette page Actualités et dans les groupes WhatsApp. Pour rejoindre les groupes, contactez Chloé Marsault ou Géraldine Budzinski : leurs coordonnées sont disponibles sur la page Contact."
+    ],
+    "boutons": [
+      {
+        "libelle": "Finaliser mon inscription",
+        "url": "inscriptions.html#liens-inscription"
+      },
+      {
+        "libelle": "Contacter les responsables",
+        "url": "contact.html"
+      }
+    ],
+    "date": "21 septembre 2026",
+    "dateISO": "2026-09-21",
+    "image": "",
+    "imageAlt": "",
+    "lien": "actualite.html?article=rentree-tennis-21-septembre-2026"
+  },
+  {
+    "slug": "ou-mon-enfant-a-t-il-cours",
+    "titre": "Où mon enfant a-t-il cours ?",
+    "categorie": "École de tennis",
+    "resume": "Les cours se déroulent à Gosnat et à Romain Rolland. Voici les repères pour savoir où vous rendre selon le jour et le créneau.",
+    "contenu": [
+      "Cette saison, les cours se déroulent sur deux sites :",
+      "📍 Complexe sportif Venise Gosnat, 30 rue Amédée Huon.",
+      "📍 Gymnase du collège-lycée Romain Rolland.",
+      "Le mercredi et le samedi matin : tous les cours ont lieu à Gosnat.",
+      "Le samedi après-midi : les cours sont répartis entre Gosnat et Romain Rolland.",
+      "Pour connaître le site de votre enfant, ou en cas de doute sur son créneau, contactez Chloé Marsault directement sur WhatsApp ou par mail. Son adresse mail est disponible sur la page Contact."
+    ],
+    "boutons": [
+      {
+        "libelle": "Contacter Chloé",
+        "url": "contact.html"
+      }
+    ],
+    "date": "21 septembre 2026",
+    "dateISO": "2026-09-21",
+    "image": "",
+    "imageAlt": "",
+    "lien": "actualite.html?article=ou-mon-enfant-a-t-il-cours"
+  },
+  {
+    "slug": "reouverture-reservations-courts-septembre-2026",
+    "titre": "Vous pouvez de nouveau réserver un court !",
+    "categorie": "Réservation",
+    "resume": "Les réservations de courts sont de nouveau ouvertes grâce aux adhérents venus donner un coup de main. Merci à eux !",
+    "contenu": [
+      "Les réservations de courts sont de nouveau ouvertes ! Un grand merci aux adhérents venus donner un coup de main pour permettre cette reprise.",
+      "Vous pouvez dès maintenant réserver votre prochain créneau et retrouver les terrains."
+    ],
+    "boutons": [
+      {
+        "libelle": "Réserver un court",
+        "url": "reserver.html"
+      }
+    ],
+    "date": "21 septembre 2026",
+    "dateISO": "2026-09-21",
+    "image": "",
+    "imageAlt": "",
+    "lien": "actualite.html?article=reouverture-reservations-courts-septembre-2026"
+  },
+  {
     "slug": "votre-avis-sur-le-site",
     "titre": "Le site aussi progresse : donnez votre avis !",
     "date": "10 septembre 2026",

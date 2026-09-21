@@ -36,14 +36,23 @@ if (actualite) {
     paragraph.textContent = paragraphText;
     content.appendChild(paragraph);
   });
-  if (actualite.bouton) {
-    const button = document.createElement("a");
-    button.className = "btn btn-primary";
-    button.href = actualite.bouton.url;
-    button.textContent = `${actualite.bouton.libelle} (nouvel onglet)`;
-    button.target = "_blank";
-    button.rel = "noopener noreferrer";
-    content.appendChild(button);
+  const buttons = actualite.boutons || (actualite.bouton ? [actualite.bouton] : []);
+  if (buttons.length) {
+    const actions = document.createElement("div");
+    actions.className = "hero-actions";
+    buttons.forEach((item, index) => {
+      const button = document.createElement("a");
+      button.className = index === 0 ? "btn btn-primary" : "btn btn-outline";
+      button.href = item.url;
+      button.textContent = item.libelle;
+      if (/^https?:\/\//i.test(item.url)) {
+        button.textContent += " (nouvel onglet)";
+        button.target = "_blank";
+        button.rel = "noopener noreferrer";
+      }
+      actions.appendChild(button);
+    });
+    content.appendChild(actions);
   }
 } else {
   articleElement.hidden = true;
