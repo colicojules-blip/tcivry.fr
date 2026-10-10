@@ -174,4 +174,22 @@ window.ACTUALITES = [
     ],
     "archive": true
   }
+    {
+    "slug": "Le TCI renouvelle son comité directeur",
+    "titre": "Le TCI renouvelle son comité directeur",
+    "date": "3 septembre 2026",
+    "dateISO": "2026-09-03",
+    "categorie": "Information",
+    "resume": "Après l'assemblé général qui a eut lieu le 2 septembre 2026, le comité directeur du club a été renouvelé. Retrouvez la composition du nouveau bureau et les contacts des responsables.",
+    "image": "",
+    "imageAlt": "",
+    "lien": "actualite.html?article=Le TCI renouvelle son comité directeur",
+    "contenu": [
+      "L'assemblé générale du 2 septembre 2026 a permis le renouvellement du comité directeur du club.",
+      "Sont déclarés élus pour un mandat de 3 ans à l’unanimité du comité directeur :  Président : LE NEZET Olivier  Vice-président : DE GEOFFROY Vincent  Secrétaire Générale : JONCOUR Pascale  Trésorière : LEFOULON Marjorie  Secrétaire adjointe : GÜN Özlem  Trésorier adjoint : CALVINO Bruno Sont déclarés d’oAice  Trésorier d’honneur : LE NEZET Gérard  Président d’honneur : CALVINO Bruno ",
+    ],
+    "archive": true,
+    "miseEnAvant": false
+  },
+  
 ];
