@@ -173,20 +173,27 @@ window.ACTUALITES = [
       "Pour une inscription aux cours de tennis, contactez Géraldine pour les adultes ou Chloé pour les enfants et les jeunes. Pour le pickleball, contactez Vincent. Les coordonnées figurent sur les pages Inscriptions et Contact."
     ],
     "archive": true
-  }
-    {
+  },
+  {
     "slug": "Le TCI renouvelle son comité directeur",
     "titre": "Le TCI renouvelle son comité directeur",
     "date": "3 septembre 2026",
     "dateISO": "2026-09-03",
     "categorie": "Information",
-    "resume": "Après l'assemblé général qui a eut lieu le 2 septembre 2026, le comité directeur du club a été renouvelé. Retrouvez la composition du nouveau bureau et les contacts des responsables.",
+    "resume": "Après l’assemblée générale qui a eu lieu le 2 septembre 2026, le comité directeur du club a été renouvelé. Retrouvez la composition du nouveau bureau et les contacts des responsables.",
     "image": "",
     "imageAlt": "",
     "lien": "actualite.html?article=Le TCI renouvelle son comité directeur",
     "contenu": [
-      "L'assemblé générale du 2 septembre 2026 a permis le renouvellement du comité directeur du club.",
-      "Sont déclarés élus pour un mandat de 3 ans à l’unanimité du comité directeur :  Président : LE NEZET Olivier  Vice-président : DE GEOFFROY Vincent  Secrétaire Générale : JONCOUR Pascale  Trésorière : LEFOULON Marjorie  Secrétaire adjointe : GÜN Özlem  Trésorier adjoint : CALVINO Bruno Sont déclarés d’oAice  Trésorier d’honneur : LE NEZET Gérard  Président d’honneur : CALVINO Bruno ",
+      "L’assemblée générale du 2 septembre 2026 a permis le renouvellement du comité directeur du club.",
+      "Les membres du bureau sont élus pour un mandat de trois ans à l’unanimité du comité directeur :",
+      "Président : Olivier LE NEZET.",
+      "Vice-président : Vincent DE GEOFFROY.",
+      "Secrétaire générale : Pascale JONCOUR.",
+      "Trésorière : Marjorie LEFOULON.",
+      "Secrétaire adjointe : Özlem GÜN.",
+      "Trésorier adjoint : Bruno CALVINO.",
+      "Trésorier d’honneur : Gérard LE NEZET. Président d’honneur : Bruno CALVINO."
     ],
     "archive": true,
     "miseEnAvant": false
